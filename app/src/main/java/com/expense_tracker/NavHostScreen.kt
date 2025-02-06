@@ -46,7 +46,7 @@ fun NavHostScreen() {
     ){
         NavHost(
             navController = navController,
-            startDestination = "/all_transactions",
+            startDestination = "/home",
             modifier = Modifier.padding(it)
         ){
             composable(route = "/home"){
